@@ -11,7 +11,7 @@ int main(){
     if (cc2File != NULL){
         printf("Ya existe el archivo cc2.txt ¿Desea reemplazarlo? (y/n)");
         scanf( "%c", &an);
-        if(an == "y"){
+        if(an == 'y'){
             cc2File = fopen("cc2file.txt", "w");
             if(cc1File = NULL || cc2File == NULL){
                 printf("Error al abrir el archivo \n");
