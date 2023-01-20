@@ -41,7 +41,7 @@ int main(){
             return -1;
         }
 
-        while (fcanf(cc1File, "%d", &numero)  == 1){
+        while (fscanf(cc1File, "%d", &numero)  == 1){
             if(numero % 3  == 0){
                 fprintf(cc2File, "%d multiplo de 3 \n", numero);
             }
