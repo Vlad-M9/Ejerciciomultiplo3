@@ -35,7 +35,7 @@ int main(){
          }
     }
     else{
-        cc2File = fopen("cc2.txt", "w");
+        cc2File = fopen("cc2File.txt", "w");
         if(cc1File == NULL || cc2File == NULL){
             printf ("Error al abrir el achivo \n");
             return -1;
